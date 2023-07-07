@@ -1,0 +1,27 @@
+/* Container for the header section, takes up the screen and could have an image as background */
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    max-width: 900px;
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+nav a {
+    display: inline-block;
+}
