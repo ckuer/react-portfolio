@@ -6,6 +6,14 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+*:hover {
+    cursor: default;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 body {
     background-color: pink;
 }

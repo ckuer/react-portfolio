@@ -7,6 +7,8 @@
     background-color: #1c1c1c;
     color: #fff;
     height: 100vh;
+    position: relative;
+    z-index: 100;
 }
 
 header {
@@ -52,8 +54,10 @@ nav {
 nav a {
     display: inline-block;
     color: lightcoral;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: none;
+    background-color: lightcoral;
+    color: #1c1c1c;
 }
