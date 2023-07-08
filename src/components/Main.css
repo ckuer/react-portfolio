@@ -1,0 +1,28 @@
+main section {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: lightgrey;
+}
+
+#projects {
+    background-color: darkslateblue;
+}
+
+#skills {
+    background-color: lightslategray;
+}
+
+#experience {
+    background-color: darkseagreen;
+}

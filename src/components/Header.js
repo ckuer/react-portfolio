@@ -6,11 +6,12 @@ const Header = () => {
         <div id="header-container">
             <header>
                 <h1>Christina Kuerner</h1>
-                <h2>aspiring front-end <span id="color-span">web developer</span><span id="blink-span">&#9144;</span></h2>
+                <h2>aspiring full-stack <span id="color-span">web developer</span><span id="blink-span">&#9144;</span></h2>
                 <nav>
-                    <a href="#top">Link One</a>
-                    <a href="#top">Link Two</a>
-                    <a href="#top">Link Three</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
                 </nav>
             </header>
         </div>
