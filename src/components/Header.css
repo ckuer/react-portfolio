@@ -7,8 +7,6 @@
     background-color: #1c1c1c;
     color: #fff;
     height: 100vh;
-    position: relative;
-    z-index: 100;
 }
 
 header {
@@ -39,8 +37,8 @@ header h2 {
     font-weight: 400;
 }
 
-#color-span {
-    color: lightyellow;
+.lightyellow {
+    color: lightgoldenrodyellow;
 }
 
 nav {

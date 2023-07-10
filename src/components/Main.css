@@ -9,10 +9,38 @@ main section {
 .section-container {
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 #about {
-    background-color: lightgrey;
+    background-image: url("../img/white-keyboard.png");
+    background-size: cover;
+}
+
+.color1 {
+    background-color: lightpink;
+}
+
+.color2 { 
+    background-color: lightgoldenrodyellow;
+}
+
+.color3 {
+    background-color: lightblue;
+}
+
+.section-img {
+    max-width: 175px;
+    margin: 15px;
+}
+
+.section-text {
+    margin-right: 15px;
+}
+
+.section-text p {
+    padding-left: 0.5em;
 }
 
 #projects {
