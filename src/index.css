@@ -15,10 +15,9 @@ a:hover {
 }
 
 body {
-    background-color: pink;
+    background-color: #131313;
 }
 
 #container {
     width: 100%;
-    background-color: grey;
 }

@@ -1,7 +1,21 @@
 footer {
-    height: 500px;
+    background-color: #131313;
+    color: white;
+    height: 300px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-icon {
+    font-size: 36px;
+    color: lightcoral;
+    margin: 0.5em 0.5em 0 0.5em;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    color: white;
 }

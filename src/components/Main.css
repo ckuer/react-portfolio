@@ -13,9 +13,25 @@ main section {
     align-items: center;
 }
 
+.section-img {
+    max-width: 175px;
+    margin: 15px;
+}
+
+#about .section-text p, #experience .section-text p {
+    padding-left: 0.5em;
+    padding-top: 5px;
+}
+
+/* ABOUT section */
 #about {
     background-image: url("../img/white-keyboard.png");
     background-size: cover;
+    background-color: lightgray;
+}
+
+#about .section-text {
+    margin-right: 15px;
 }
 
 .color1 {
@@ -30,27 +46,157 @@ main section {
     background-color: lightblue;
 }
 
-.section-img {
-    max-width: 175px;
-    margin: 15px;
-}
-
-.section-text {
-    margin-right: 15px;
-}
-
-.section-text p {
-    padding-left: 0.5em;
-}
-
+/* PROJECTS section */
 #projects {
-    background-color: darkslateblue;
+    background-color: lightblue;
 }
 
+#projects .section-container {
+    width: 100%;
+    display: block;
+    margin: 0 15px;
+}
+
+#projects-container {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    max-width: 275px;
+    margin: 0 10px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project img:hover {
+    cursor: pointer;
+    filter: brightness(110%);
+}
+
+.project figcaption {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* SKILLS section */
 #skills {
-    background-color: lightslategray;
+    background-image: url("../img/white-code.png");
+    background-color: lightgray;
 }
 
+#skills .section-container {
+    max-width: 975px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#skills-list {
+    margin-top: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-li {
+    background-color: #131313;
+    color: white;
+    margin: 5px 15px;
+    text-align: center;
+    border-radius: 0.1cm;
+    width: 100px;
+    padding: 17px 0;
+}
+
+.skill-li:hover {
+    position: relative;
+    top: 3px;
+}
+
+.skill-li p {
+    padding-left: 0;
+    padding-top: 0.5em;
+    font-size: 12px;
+}
+
+.skill-icon {
+    font-size: 42px;
+}
+
+/* EXPERIENCE section */
 #experience {
-    background-color: darkseagreen;
+    background-color: lightgoldenrodyellow;
+}
+
+
+/* Media Query for Under 900px wide screens */
+@media screen and (max-width: 900px) {
+    main section {
+        height: fit-content;
+    }
+
+    .section-container {
+        padding: 10% 0;
+    }
+
+    /* Projects section rules for under 900px screens */
+    #projects h1 {
+        padding-left: 15px;
+    }
+
+    #projects .section-container {
+        margin: 0;
+        padding: 5% 0 12px 0;
+    }
+
+    #projects-container {
+        flex-direction: column;
+    }
+
+    .project {
+        max-width: 100%;
+        margin: 0 15px 25px 15px;
+    }
+
+    .project:last-of-type {
+        margin-bottom: 10px;
+    }
+
+    /* Skills section rules for under 900px screens */
+    #skills .section-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #skills-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-li {
+        margin: 7px;
+    }
+}
+
+/* Media Query for Under 515px wide screens */
+@media screen and (max-width: 515px) {
+    
+
+    /* About section rules for under 515px screens */
+    #about .section-container {
+        flex-direction: column;
+    }
+
+    #about .section-text {
+        margin: 0 15px;
+    }
+
+    #about .section-img {
+        margin-top: 0;
+    }
 }
