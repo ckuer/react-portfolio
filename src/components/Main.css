@@ -54,7 +54,7 @@ main section {
 #projects .section-container {
     width: 100%;
     display: block;
-    margin: 0 15px;
+    margin: 60px 15px;
 }
 
 #projects-container {
@@ -159,7 +159,7 @@ main section {
     }
 
     .section-container {
-        padding: 10% 0;
+        padding: 60px 0;
     }
 
     /* Projects section rules for under 900px screens */
@@ -169,7 +169,6 @@ main section {
 
     #projects .section-container {
         margin: 0;
-        padding: 5% 0 12px 0;
     }
 
     #projects-container {

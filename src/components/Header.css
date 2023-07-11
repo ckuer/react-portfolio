@@ -12,7 +12,6 @@
 header {
     width: 100%;
     max-width: 500px;
-    /* border: 1px solid red; */
 }
 
 header h1 {
@@ -58,4 +57,28 @@ nav a {
 nav a:hover {
     background-color: lightcoral;
     color: #131313;
+}
+
+/* Media Query for under 550px screens */
+@media screen and (max-width: 550px) {
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 19px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 0.25em;
+    }
 }
