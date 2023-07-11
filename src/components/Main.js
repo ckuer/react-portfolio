@@ -40,21 +40,25 @@ const Main = () => {
                             </figure>
 
                             <figure class="project">
-                                <picture>
-                                    <source media="(max-width: 900px)" srcset={web210projectwide}/>
-                                    <img src={web210project} alt=""/>
-                                </picture>
+                                <a href="https://wcet.waketech.edu/cmkuerner/WEB210/portfolio/index.html" target="_blank" rel="noreferrer">
+                                    <picture>
+                                        <source media="(max-width: 900px)" srcset={web210projectwide}/>
+                                        <img src={web210project} alt=""/>
+                                    </picture>
+                                    </a>              
                                 <figcaption>
                                     <b>Bootstrap Portfolio</b><br/>
                                     WEB-210 &diams; Fall '22<br/>
-                                </figcaption>
+                                </figcaption>                  
                             </figure>
 
                             <figure class="project">
-                                <picture>
-                                    <source media="(max-width: 900px)" srcset={web115projectwide}/>
-                                    <img src={web115project} alt=""/>
-                                </picture>
+                                <a href="https://wcet.waketech.edu/cmkuerner/WEB210/other/example1/finalProject.html" target="_blank" rel="noreferrer">
+                                    <picture>
+                                        <source media="(max-width: 900px)" srcset={web115projectwide}/>
+                                        <img src={web115project} alt=""/>
+                                    </picture>
+                                </a>
                                 <figcaption>
                                     <b>JS Resume Builder</b><br/>
                                     WEB-115 &diams; Spring '22<br/>
