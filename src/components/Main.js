@@ -103,7 +103,35 @@ const Main = () => {
                 <div class="section-container">
                     <div class="section-text">
                         <h1>Experience</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h3>Certificates</h3>
+                            <ul class="experience-list">
+                                <li><b><span class="color3">IT: Web Development Basics certificate</span></b> from Wake Tech on 07/26/22</li>
+                                <li><b>LinkedIn Learning certificates</b></li>
+                                    <ul class="experience-sublist">
+                                        <li>2021 <em>HTML: Images and Figures</em></li>
+                                        <li>2022 <em>Learning GitHub</em></li>
+                                        <li>2022 <em>CSS Essential Training</em></li>
+                                        <li>2022 <em>PHP for WordPress</em></li>
+                                        <li>2022 <em>MERN Essential Training</em></li>
+                                        <li>2023 <em>React.js Essential Training</em></li>
+                                    </ul>
+                                <li><b>MongoDB certificates</b></li>
+                                    <ul class="experience-sublist">
+                                        <li>2023 <em>Introduction to MongoDB</em></li>
+                                        <li>2023 <em>MongoDB Node.js Developer Path</em></li>
+                                    </ul>
+                            </ul>
+                        <h3>Coursework Highlights</h3>
+                            <ul class="experience-list">
+                                <li>CTI-110, 2021: <b>HTML</b> and <b>CSS</b></li>
+                                <li>DBA-120, 2021: <b>Oracle</b>, <b>SQL</b>, and <b>MySQL</b></li>
+                                <li>WEB-115, 2022: <b>JavaScript</b></li>
+                                <li>WEB-210, 2022: <b>Bootstrap</b></li>
+                                <li>WEB-182, 2022: <b>PHP</b> and <b>MySQL</b></li>
+                                <li>WEB-250, 2022: <b>WordPress</b> and <b>SEO basics</b></li>
+                                <li>WEB-215, 2023: MERN stack - <b>MongoDB</b>, <b>Express.js</b>, <b>React.js</b>, <b>Node.js</b></li>
+                            </ul>
+                            <p>...and more!</p>
                     </div>
                 </div>
             </section>

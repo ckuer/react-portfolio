@@ -131,6 +131,24 @@ main section {
 /* EXPERIENCE section */
 #experience {
     background-color: lightgoldenrodyellow;
+    height: min-content;
+}
+
+#experience .section-container {
+    padding: 60px 15px;
+}
+
+#experience h3 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.experience-list {
+    padding-left: 45px;
+}
+
+.experience-sublist {
+    padding-left: 30px;
 }
 
 
